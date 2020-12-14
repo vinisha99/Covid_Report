@@ -1,11 +1,13 @@
 import './App.css';
-import {Link} from 'react-router-dom'
+import StateDataComponent from './stateData'
+//import {Link} from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
+      <h1>Covid Report</h1>
       <header className="App-header">
-        <h1>Covid Report</h1>
+        <StateDataComponent/>
       </header>
     </div>
   );
